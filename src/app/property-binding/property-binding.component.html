@@ -1,0 +1,27 @@
+<!-- <p>property-binding works!</p> -->
+<br />
+<br />
+<h1 class="text-center">PROPERTY BINDING</h1>
+
+  <!-- <p>Hai Sneha!</p> -->
+
+ <button  type="button" value="Property Binding1" [disabled]="disable">Disabled Button</button>
+ <br />
+ <br />
+ <button type="button" value="Property Binding2" [disabled]="disable1">Button</button>
+ 
+ <p [innerHTML]="text1"></p>
+ 
+ <img [src]="imgUrl">
+ <br />
+<br />
+<h3>Interpolation & Property binding:</h3><br>
+<button type="button" value={{name}} disabled={{disable}} style='margin-right:16px'>Button 1</button>
+<!-- <br />
+<br /> -->
+<button type="button" [value]="name" [disabled]="disable" style='margin-right:16px'>Button 2</button>
+<br />
+<br />
+<button type="button" value={{name}} disabled={{disable2}} style='margin-right:16px'>Button 3</button>
+
+<button type="button" [value]="name" [disabled]="disable2" style='margin-right:16px'>Button 4</button>

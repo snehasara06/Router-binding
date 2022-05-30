@@ -1,0 +1,28 @@
+<!-- <p>interpolation works!</p> -->
+<br />
+<br />
+<h1 class="text-center">INTERPOLATION</h1>
+
+  <h2>Text:</h2>
+  <p class="head">{{title}}</p>
+
+  <h2>User defined method:</h2>
+  <p class="head1">{{getAbout()}}</p>
+
+  <h2>String concatenation:</h2>
+  <p class="head2">{{'Aspire Systems '+'Siruseri,Chennai'}}</p>
+
+  <h2>Expressions:</h2>
+  <p class="head3">Division:{{108/2}}</p>
+  <p class="head3">Minimum of 2 numbers(using function):{{min(12,24)}}</p>
+  <p class="head3">Multiplication:50x2={{50*2}}</p>
+
+  <h2>Bind to property:</h2>
+  <!-- <p>Show me:<span [ngClass]=[giveMeRed1]>Red</span></p> -->
+
+
+  <p [ngClass] = "'giveMeRed'">red</p>
+
+  <p style.color={{giveMeRed}}>This is red</p>
+
+  <h4>Show me:<span class="{{giveMecolor}}">blue</span></h4>
